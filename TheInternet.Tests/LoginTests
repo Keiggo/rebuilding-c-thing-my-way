@@ -1,0 +1,25 @@
+using System.IO;
+using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
+namespace TheInternet.Tests;
+
+public class LoginTests : BaseTests
+{
+    private HomePage homePage;
+    private LoginPage loginPage;
+
+    [Test]
+    public void Logging_in_as_ya_boi()
+    {
+        homePage.clickFormAuthentication();
+        loginPage.enterUsername("tomsmith");
+        loginPage.enterPassword("SuperSecretPassword!");
+        loginPage.clickLoginButton();
+        //verify url maybe?
+        //verify the success banner
+
+    }
+
+}

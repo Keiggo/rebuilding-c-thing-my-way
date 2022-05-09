@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nwO+CXZNb4IVIdOqrI39lnWhPZNf+0kf007mlvuA6R4vNc7y83kXKLMlb87v61FQ7CF+Qs4WDYf9p0iWgbPSRw==",
+  "success": true,
+  "projectFilePath": "F:\\Projects\\rebuilding-c-thing-my-way\\theinternet\\TheInternet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Darren\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Darren\\.nuget\\packages\\selenium.support\\4.1.1\\selenium.support.4.1.1.nupkg.sha512",
+    "C:\\Users\\Darren\\.nuget\\packages\\selenium.webdriver\\4.1.1\\selenium.webdriver.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

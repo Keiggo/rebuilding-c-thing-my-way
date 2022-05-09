@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\rebuilding-c-thing-my-way\\theinternet\\TheInternet.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\rebuilding-c-thing-my-way\\framework\\Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\rebuilding-c-thing-my-way\\framework\\Framework.csproj",
+        "projectName": "Framework",
+        "projectPath": "F:\\Projects\\rebuilding-c-thing-my-way\\framework\\Framework.csproj",
+        "packagesPath": "C:\\Users\\Darren\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\rebuilding-c-thing-my-way\\framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darren\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\rebuilding-c-thing-my-way\\theinternet\\TheInternet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\rebuilding-c-thing-my-way\\theinternet\\TheInternet.csproj",
+        "projectName": "TheInternet",
+        "projectPath": "F:\\Projects\\rebuilding-c-thing-my-way\\theinternet\\TheInternet.csproj",
+        "packagesPath": "C:\\Users\\Darren\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\rebuilding-c-thing-my-way\\theinternet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darren\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Projects\\rebuilding-c-thing-my-way\\framework\\Framework.csproj": {
+                "projectPath": "F:\\Projects\\rebuilding-c-thing-my-way\\framework\\Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
