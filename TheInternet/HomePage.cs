@@ -10,10 +10,10 @@ public class HomePage : BasePage
         this.driver = driver;
     }
 
-    private IWebElement formAuthentication => driver.FindElement(By.CssSelector("a[href='/login']"));
+    private IWebElement formAuthenticationLink => driver.FindElement(By.CssSelector("a[href='/login']"));
 
     public void clickFormAuthentication()
     {
-        clickLink(formAuthentication);
+        clickLink(formAuthenticationLink);
     }
 }

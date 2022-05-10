@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using OpenQA.Selenium;
 
 namespace TheInternet.Tests;
 
@@ -8,9 +9,20 @@ public class LoginTests : BaseTests
     private LoginPage loginPage;
     private SecureAreaPage secureAreaPage;
 
+    // public LoginTests()
+    // {
+    //     var homePage = new HomePage(driver);
+    //     var loginPage = new LoginPage(driver);
+    //     var secureAreaPage = new SecureAreaPage(driver);
+    // }
+
     [Test]
     public void Logging_in_as_ya_boi()
     {
+        var homePage = new HomePage(driver);
+        var loginPage = new LoginPage(driver);
+        var secureAreaPage = new SecureAreaPage(driver);
+        
         homePage.clickFormAuthentication();
         loginPage.enterUsername("tomsmith");
         loginPage.enterPassword("SuperSecretPassword!");
