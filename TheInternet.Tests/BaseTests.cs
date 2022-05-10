@@ -12,7 +12,7 @@ public class BaseTests
     [SetUp]
     public void Setup()
     {
-        driver = new ChromeDriver(Path.GetFullPath(@".._" + "_drivers"));
+        driver = new ChromeDriver(Path.GetFullPath(@"../../../../" + "_drivers"));
         driver.Url = "https://the-internet.herokuapp.com/";
         driver.Manage().Window.Maximize();
     }

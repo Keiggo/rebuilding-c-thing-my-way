@@ -1,7 +1,4 @@
-using System.IO;
 using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 
 namespace TheInternet.Tests;
 
