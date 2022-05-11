@@ -11,9 +11,15 @@ public class HomePage : BasePage
     }
 
     private IWebElement formAuthenticationLink => driver.FindElement(By.CssSelector("a[href='/login']"));
+    private IWebElement dropDownLink => driver.FindElement(By.CssSelector("a[href='/dropdown']"));
 
     public void clickFormAuthentication()
     {
         clickLink(formAuthenticationLink);
+    }
+
+    public void clickDropdown()
+    {
+        clickLink(dropDownLink);
     }
 }
