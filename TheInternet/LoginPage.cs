@@ -4,7 +4,7 @@ namespace TheInternet;
 
 public class LoginPage : BasePage
 {
-    IWebElement usernameTextBox => driver.FindElement(By.CssSelector("input[id=username]"));
+    IWebElement usernameTextBox => driver.FindElement(By.CssSelector("input[id='username']"));
     IWebElement passwordTextBox => driver.FindElement(By.CssSelector("input[id='password']"));
     IWebElement loginButton => driver.FindElement(By.CssSelector("button[type='submit']"));
     
@@ -20,7 +20,7 @@ public class LoginPage : BasePage
 
     public void enterPassword(String password)
     {
-        enterText(usernameTextBox, password);
+        enterText(passwordTextBox, password);
     }
 
     public void clickLoginButton()

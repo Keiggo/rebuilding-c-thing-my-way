@@ -14,7 +14,7 @@ public class SecureAreaPage : BasePage
     public List<string> getBannerDetails()
     {
         String bannerText = banner.Text.ToString();
-        String bannerType = banner.GetCssValue("div[class]").ToString();
+        String bannerType = banner.FindElement(By.CssSelector("div [id=flash]")).GetAttribute("className").ToString();
 
         var bannerDetails = new List<string>{bannerText, bannerType};
 

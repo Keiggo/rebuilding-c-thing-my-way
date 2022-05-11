@@ -11,6 +11,7 @@ F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\testcen
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\TheInternet.Tests.deps.json
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\TheInternet.Tests.runtimeconfig.json
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\TheInternet.Tests.dll
+F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\TheInternet.Tests.pdb
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -102,5 +103,4 @@ F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\obj\Debug\net6.0\TheInte
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\obj\Debug\net6.0\refint\TheInternet.Tests.dll
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\obj\Debug\net6.0\TheInternet.Tests.pdb
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\obj\Debug\net6.0\TheInternet.Tests.genruntimeconfig.cache
-F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\bin\Debug\net6.0\TheInternet.Tests.pdb
 F:\Projects\rebuilding-c-thing-my-way\theinternet.tests\obj\Debug\net6.0\ref\TheInternet.Tests.dll
