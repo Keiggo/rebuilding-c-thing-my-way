@@ -16,5 +16,13 @@ public class HoverTests : BaseTests
         Assert.AreEqual("name: user1", hoversPage.hoverOveruserImage(1).getUsername());
         Assert.AreEqual("https://the-internet.herokuapp.com/users/1", hoversPage.hoverOveruserImage(1).getUserLink());
 
+        Assert.True(hoversPage.hoverOveruserImage(2).isCaptionDisplayed());
+        Assert.AreEqual("name: user2", hoversPage.hoverOveruserImage(2).getUsername());
+        Assert.AreEqual("https://the-internet.herokuapp.com/users/2", hoversPage.hoverOveruserImage(2).getUserLink());
+
+        Assert.True(hoversPage.hoverOveruserImage(3).isCaptionDisplayed());
+        Assert.AreEqual("name: user3", hoversPage.hoverOveruserImage(3).getUsername());
+        Assert.AreEqual("https://the-internet.herokuapp.com/users/3", hoversPage.hoverOveruserImage(3).getUserLink());
+
     }
 }
