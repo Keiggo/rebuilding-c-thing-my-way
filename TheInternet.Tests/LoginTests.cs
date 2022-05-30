@@ -1,14 +1,9 @@
 using NUnit.Framework;
-using OpenQA.Selenium;
 
 namespace TheInternet.Tests;
 
 public class LoginTests : BaseTests
 {
-    private HomePage homePage;
-    private LoginPage loginPage;
-    private SecureAreaPage secureAreaPage;
-
     // public LoginTests()
     // {
     //     var homePage = new HomePage(driver);
