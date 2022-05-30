@@ -4,13 +4,6 @@ namespace TheInternet.Tests;
 
 public class LoginTests : BaseTests
 {
-    // public LoginTests()
-    // {
-    //     var homePage = new HomePage(driver);
-    //     var loginPage = new LoginPage(driver);
-    //     var secureAreaPage = new SecureAreaPage(driver);
-    // }
-
     [Test]
     public void Logging_in_as_ya_boi()
     {
