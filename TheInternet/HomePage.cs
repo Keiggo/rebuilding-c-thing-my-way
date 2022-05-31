@@ -13,6 +13,7 @@ public class HomePage : BasePage
     private IWebElement formAuthenticationLink => driver.FindElement(By.CssSelector("a[href='/login']"));
     private IWebElement hoversLink => driver.FindElement(By.CssSelector("a[href='/hovers']"));
     private IWebElement dropdownLink => driver.FindElement(By.CssSelector("a[href='/dropdown']"));
+    private IWebElement addRemoveElementsLink => driver.FindElement(By.CssSelector("a[href='/add_remove_elements/'"));
 
     public void clickFormAuthentication()
     {
@@ -27,5 +28,10 @@ public class HomePage : BasePage
     public void  clickDropdown()
     {
         clickLink(dropdownLink);
+    }
+
+    public void clickAddRemoveElements()
+    {
+        clickLink(addRemoveElementsLink);
     }
 }
