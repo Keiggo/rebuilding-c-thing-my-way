@@ -21,4 +21,9 @@ public class BasePage
     {
         textBox.SendKeys(text);
     }
+
+    protected void clickButton(IWebElement button)
+    {
+        button.Click();
+    }
 }
